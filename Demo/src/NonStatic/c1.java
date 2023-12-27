@@ -1,0 +1,20 @@
+package NonStatic;
+
+public class c1 {
+
+	
+	public void m1() // non static method
+	{
+		
+		System.out.println("non static method call");
+		
+	}
+	
+	    public static void main(String args[])
+	    {
+	    	c1 obj=new c1();
+	    	obj.m1();
+	    
+	    	
+	    }
+}
