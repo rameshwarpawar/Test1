@@ -1,0 +1,10 @@
+package interfacedemo;
+
+public class interface_demo1 {
+	
+	int a=10;
+	
+	void show();
+	
+
+}

@@ -1,0 +1,32 @@
+package Constructor;
+
+public class example5 {
+	
+	  int lenth;
+	  int breadth;
+	  
+	  example5()
+	  {
+		  System.out.println("Calculating Area of rectangle");
+	  }
+	  
+	  example5(int a ,int b)
+	  {
+		  int lenth=a;
+		  int breadth=b;
+		  
+	  }
+      
+	     public void area()
+	     {
+	    	 int area=lenth*breadth;
+	    	 System.out.println("Area of Rectangle"+ area);
+	     }
+	     
+	     public static void main(String args[])
+	     {
+	    	 example5 ans=new example5(10,20);
+	    	 ans.area();
+	    	 }
+	     }
+

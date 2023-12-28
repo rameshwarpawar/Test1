@@ -1,0 +1,8 @@
+package interfacedemo;
+
+public interface demo2 implements demo1
+
+
+{
+
+}
