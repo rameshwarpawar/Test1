@@ -1,0 +1,17 @@
+package interfacedemo;
+
+public class demo2 implements demo1
+
+
+
+  {
+	public void shwo()
+	{
+		
+	}
+
+
+		
+	}
+
+

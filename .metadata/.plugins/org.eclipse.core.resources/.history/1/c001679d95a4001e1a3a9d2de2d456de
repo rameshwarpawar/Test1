@@ -1,0 +1,28 @@
+package Constructor;
+
+public class example4 {
+
+	
+	int num1;
+	int num2;
+	
+	example4(int a,int b)
+	{
+		int num1=a;
+		int num2=b;
+	}
+	
+	public void div()
+	{
+		int division= num1/num2;
+		System.out.println(division);
+	}
+	 
+	   public static void main (String args[])
+	   {
+		   example4 ans= new example4(50,5);
+		   {
+			   ans.div();
+		   }
+	   }
+}
